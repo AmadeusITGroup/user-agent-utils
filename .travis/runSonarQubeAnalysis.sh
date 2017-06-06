@@ -27,6 +27,7 @@ if [ "${TRAVIS_BRANCH}" = "trunk" ] && [ "${TRAVIS_PULL_REQUEST}" = "false" ]; t
 	echo "Starting analysis by SonarQube..."
 	mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar -B -e -V -Dmaven.javadoc.skip=true \
 		-Dsonar.host.url=$SONAR_HOST_URL \
+		-Dsonar.organization=$SONAR_ORGA \
 		-Dsonar.login=$SONAR_TOKEN
 
 elif [ "${TRAVIS_PULL_REQUEST}" != "false" ] && [ -n "${GITHUB_TOKEN-}" ]; then
@@ -39,6 +40,7 @@ elif [ "${TRAVIS_PULL_REQUEST}" != "false" ] && [ -n "${GITHUB_TOKEN-}" ]; then
 	echo "Starting Pull Request analysis by SonarQube..."
 	mvn clean package sonar:sonar -B -e -V -Dmaven.javadoc.skip=true \
 		-Dsonar.host.url=$SONAR_HOST_URL \
+		-Dsonar.organization=$SONAR_ORGA \
 		-Dsonar.login=$SONAR_TOKEN \
 		-Dsonar.analysis.mode=preview \
 		-Dsonar.github.oauth=$GITHUB_TOKEN \
