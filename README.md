@@ -2,6 +2,8 @@ user-agent-utils
 ================
 
 [![Build Status](https://travis-ci.org/AmadeusITGroup/user-agent-utils.svg?branch=master)](https://travis-ci.org/AmadeusITGroup/user-agent-utils/branches)
+[![SonarQube Reports]](https://sonarcloud.io/dashboard?id=eu.bitwalker%3AUserAgentUtils)
+
 
 Utilities for processing user-agent strings. Can be used to handle http requests in real-time or to analyze log files.
 
