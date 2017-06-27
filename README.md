@@ -2,10 +2,10 @@ user-agent-utils
 ================
 
 [![Build Status](https://travis-ci.org/AmadeusITGroup/user-agent-utils.svg?branch=master)](https://travis-ci.org/AmadeusITGroup/user-agent-utils/branches)
-[![SonarQube Quality Gate](https://sonarcloud.io/api/badges/gate?key=eu.bitwalker%3AUserAgentUtils&template=FLAT)](https://sonarcloud.io/dashboard?id=eu.bitwalker%3AUserAgentUtils)
-[![SonarQube Reported Bugs](https://sonarcloud.io/api/badges/measure?key=eu.bitwalker%3AUserAgentUtils&metric=bugs&template=FLAT)](https://sonarcloud.io/dashboard?id=eu.bitwalker%3AUserAgentUtils)
-[![SonarQube Reported Vulnerabilities](https://sonarcloud.io/api/badges/measure?key=eu.bitwalker%3AUserAgentUtils&metric=vulnerabilities&template=FLAT)](https://sonarcloud.io/dashboard?id=eu.bitwalker%3AUserAgentUtils)
-[![Technical Debt](https://sonarcloud.io/api/badges/measure?key=eu.bitwalker%3AUserAgentUtils&metric=sqale_debt_ratio&template=FLAT)](https://sonarcloud.io/dashboard?id=eu.bitwalker%3AUserAgentUtils)
+[![SonarQube Quality Gate](https://sonarcloud.io/api/badges/gate?key=eu.bitwalker%3AUserAgentUtils%3Atrunk&template=FLAT)](https://sonarcloud.io/dashboard?id=eu.bitwalker%3AUserAgentUtils%3Atrunk)
+[![SonarQube Reported Bugs](https://sonarcloud.io/api/badges/measure?key=eu.bitwalker%3AUserAgentUtils%3Atrunk&metric=bugs&template=FLAT)](https://sonarcloud.io/dashboard?id=eu.bitwalker%3AUserAgentUtils%3Atrunk)
+[![SonarQube Reported Vulnerabilities](https://sonarcloud.io/api/badges/measure?key=eu.bitwalker%3AUserAgentUtils%3Atrunk&metric=vulnerabilities&template=FLAT)](https://sonarcloud.io/dashboard?id=eu.bitwalker%3AUserAgentUtils%3Atrunk)
+[![Technical Debt](https://sonarcloud.io/api/badges/measure?key=eu.bitwalker%3AUserAgentUtils%3Atrunk&metric=sqale_debt_ratio&template=FLAT)](https://sonarcloud.io/dashboard?id=eu.bitwalker%3AUserAgentUtils%3Atrunk)
 
 
 Utilities for processing user-agent strings. Can be used to handle http requests in real-time or to analyze log files.
