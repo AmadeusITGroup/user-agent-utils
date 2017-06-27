@@ -1,7 +1,7 @@
 user-agent-utils
 ================
 
-[![Build Status](https://travis-ci.org/AmadeusITGroup/user-agent-utils.svg?branch=master)](https://travis-ci.org/AmadeusITGroup/user-agent-utils/branches)
+[![Build Status](https://travis-ci.org/AmadeusITGroup/user-agent-utils.svg?branch=trunk)](https://travis-ci.org/AmadeusITGroup/user-agent-utils/branches)
 [![SonarQube Quality Gate](https://sonarcloud.io/api/badges/gate?key=eu.bitwalker%3AUserAgentUtils%3Atrunk&template=FLAT)](https://sonarcloud.io/dashboard?id=eu.bitwalker%3AUserAgentUtils%3Atrunk)
 [![SonarQube Reported Bugs](https://sonarcloud.io/api/badges/measure?key=eu.bitwalker%3AUserAgentUtils%3Atrunk&metric=bugs&template=FLAT)](https://sonarcloud.io/dashboard?id=eu.bitwalker%3AUserAgentUtils%3Atrunk)
 [![SonarQube Reported Vulnerabilities](https://sonarcloud.io/api/badges/measure?key=eu.bitwalker%3AUserAgentUtils%3Atrunk&metric=vulnerabilities&template=FLAT)](https://sonarcloud.io/dashboard?id=eu.bitwalker%3AUserAgentUtils%3Atrunk)
